@@ -4,7 +4,6 @@ Created on Tue Mar 26 15:59:15 2019
 
 @author: Admin
 """
-
 def test(model,loader):
     model.eval()
     num_correct,num_samples=0,len(loader.dataset)

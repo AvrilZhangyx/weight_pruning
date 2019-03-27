@@ -4,7 +4,6 @@ Created on Tue Mar 26 15:59:14 2019
 
 @author: Admin
 """
-
 def train(model,loss_fn,optm,param,loader_train):
     model.train()
     for epoch in range(param['num_epochs']):

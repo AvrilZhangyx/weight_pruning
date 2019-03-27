@@ -4,6 +4,7 @@ Created on Tue Mar 12 16:11:04 2019
 
 @author: Admin
 """
+
 import numpy as np
 def weight_prune(model,pruning_perc):
     all_weights=[]
